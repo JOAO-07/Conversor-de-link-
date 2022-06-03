@@ -1,0 +1,41 @@
+<!-- ------------ Created By InCoder ------------ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shareable link to downloadable link converter | InCoder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h2>Drive Link Converter</h2>
+      <div class="error">
+        <i class="fas fa-exclamation-circle"></i>
+        <p class="message"></p>
+      </div>
+      <div class="linkInput">
+        <form id="convertLink">
+          <input type="text" name="driveLink" placeholder="Paste Drive Link">
+          <button type="submit" class="inBtn inBtn-primary">Convert</button>
+        </form>
+      </div>
+    </div>
+    <div class="card-footer">
+      <h3>Converted Downloadable Link</h3>
+      <div class="convertedLinkBox">
+        <input type="text" id="convertedLink" placeholder="Converted Downloadable Link" disabled>
+        <button type="submit" class="inBtn inBtn-primary copyBtn" title="Click to Cpoy"><i class="fas fa-clipboard"></i></button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+ 
+</body>
+
+</html>
